@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iridescent DevSecOps Platform: Unified AI Security Orchestrator Infographic</title>
+    <style>
+        :root {
+            --primary: #9C27B0;
+            --secondary: #FFD700;
+            --dark: #121212;
+            --light: #E0E0E0;
+            --accent: #00E5FF;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--dark);
+            color: var(--light);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 3em;
+            color: var(--secondary);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        .header p {
+            font-style: italic;
+            color: var(--primary);
+            font-size: 1.2em;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 1200px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(156, 39, 176, 0.3);
+            border-radius: 15px;
+            padding: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(156, 39, 176, 0.4);
+            border-color: var(--accent);
+        }
+        .card h2 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--accent);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .card ul li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .card ul li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+        }
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+        .brand {
+            color: var(--secondary);
+            font-weight: bold;
+        }
+        .center-node {
+            grid-column: 2;
+            background: linear-gradient(135deg, var(--primary), #673AB7);
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-node h2 {
+            color: white;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Iridescent DevSecOps Platform</h1>
+        <p>Unified AI Security Orchestrator & Turnkey System</p>
+    </div>
+
+    <div class="container">
+        <!-- Input Layer -->
+        <div class="card">
+            <h2>1. Input Layer</h2>
+            <ul>
+                <li>Source Code Artifacts (.ts, .js, .py, etc.)</li>
+                <li>Security Analysis Rules (Regex/AST)</li>
+                <li>Environment Config (.env, process.env)</li>
+                <li>User CLI Flags (mode, architecture, dry-run)</li>
+            </ul>
+        </div>
+
+        <!-- Central Intelligence -->
+        <div class="card center-node">
+            <h2>Security Orchestrator</h2>
+            <p>Unified AI & Static Engine</p>
+            <p><strong>Powered by Claude Sonnet 3.7/4.5</strong></p>
+        </div>
+
+        <!-- Output Layer -->
+        <div class="card">
+            <h2>3. Output Layer</h2>
+            <ul>
+                <li>Automated Security Remediation</li>
+                <li>Production-Ready Security Reports</li>
+                <li>Architectural Security Debt Analysis</li>
+                <li>CLI Visualization & Interactive Feedback</li>
+            </ul>
+        </div>
+
+        <!-- Core Processes -->
+        <div class="card">
+            <h2>File Intelligence</h2>
+            <ul>
+                <li>Intelligent Chunking Engine</li>
+                <li>Contextual Overlap Processing</li>
+                <li>Multi-file Design Graphing</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Robustness Features</h2>
+            <ul>
+                <li>JSON State-Machine Repair</li>
+                <li>Sequential Remediation Application</li>
+                <li>Recursive Integrity Checks</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Security Standards</h2>
+            <ul>
+                <li>OWASP Top 10 Mapping</li>
+                <li>CWE Vulnerability Scoring</li>
+                <li>PCI-DSS & SOC2 Compliance Alignment</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Designed and Engineered by <span class="brand">David Akpoviroro Oke (MrIridescent)</span></p>
+        <p>&copy; 2026 Iridescent Technical Solutions. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
