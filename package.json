@@ -21,14 +21,21 @@
     "setup": "node scripts/setup.js",
     "doctor": "node dist/cli.js doctor"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrIridescent/DevSecOps-Agent.git"
+  },
   "keywords": [
     "iridescent",
+    "devsecops",
+    "security-orchestrator",
+    "automated-remediation",
     "code-review",
     "static-analysis",
-    "bug-detection",
-    "automated-fixes",
-    "devops",
-    "ai-orchestrator"
+    "ai-security",
+    "claude-sonnet",
+    "purple-teaming",
+    "turnkey-security"
   ],
   "author": "David Akpoviroro Oke (MrIridescent)",
   "license": "MIT",
